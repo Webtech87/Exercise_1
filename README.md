@@ -1,23 +1,19 @@
-# Exercise_1
-Length of Last Word
+# Exercise_1 : Last Word Length Test
 
-Example 1:
+Problem
+Given a string with words separated by spaces, find the length of the last word.
 
-Input: s = "Hello World"
-Output: 5
-Explanation: The last word is "World" with length 5.
+Test Cases
 
-Example 2:
+Input Example	Output
+"Hello World"	5
+" fly me to the moon "	4
+"luffy is still joyboy"	6
+"Python"	6
+"a "	1
+" test case "	4
 
-Input: s = "   fly me   to   the moon  "
-Output: 4
-Explanation: The last word is "moon" with length 4.
-
-Example 3:
-
-Input: s = "luffy is still joyboy"
-Output: 6
-Explanation: The last word is "joyboy" with length 6.
+Note: Words may be separated by multiple spaces, and the string may have leading/trailing spaces.
 
  
 
